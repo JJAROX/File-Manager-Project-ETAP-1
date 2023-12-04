@@ -1,0 +1,15 @@
+<div class="navbar">
+  <a href="/">upload</a>
+  <a href="/filemanager">filemanager</a>
+  <a href="/info">info</a>
+</div>
+<div class="info-div">
+  <p class="info-div-paragraph">{{upload}}</p>
+</div>
+<div class="input-div">
+  <form enctype="multipart/form-data" method="post" action="/filemanager">
+    <input class="div-input" type="file" multiple required accept="image/*" name="imagetoupload">
+    <button class="div-button" type="submit"> upload </button>
+  </form>
+
+</div>

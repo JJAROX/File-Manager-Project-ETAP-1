@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 75px;
+  width: 100%;
+  background-color: rgb(60, 59, 161);
+}
+
+a {
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+  top: 5px;
+  left: 45px;
+  margin-right: 20px;
+  font-size: 17px;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  top: 24px;
+}
+
+.info-div {
+  display: flex;
+  justify-content: center;
+  float: left;
+  background-color: rgb(228, 228, 228);
+  height: 100vh;
+  width: 15%;
+  position: relative;
+}
+
+.info-div-paragraph {
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(132, 137, 149);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-div {
+  display: block;
+  float: right;
+  width: 85%;
+  position: relative;
+
+
+}
+
+.div-input {
+  position: absolute;
+  top: 50px;
+  left: 35px;
+}
+
+.div-button {
+  position: absolute;
+  top: 100px;
+  left: 35px;
+  width: 75px;
+}
+
+.delete-all-a {
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  text-align: center;
+  color: rgb(114, 144, 200);
+}
+
+.inp-table {
+  width: 100%;
+  border: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.tr-header {
+  background-color: rgb(115, 148, 199);
+  color: white;
+
+
+}
+
+.button-table {
+  color: rgb(114, 144, 200);
+  font-size: 14px;
+  margin: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.info-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+  color: rgb(60, 59, 161);
+  ;
+}

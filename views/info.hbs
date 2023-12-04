@@ -1,0 +1,24 @@
+<div class="navbar">
+  <a href="/">upload</a>
+  <a href="/filemanager">filemanager</a>
+  <a href="/info">info</a>
+</div>
+<div class="info-div">
+  <p style="left:65px" class="info-div-paragraph">{{#if info }}
+    file info
+    {{else}}
+    {{titleContext.info}}
+    {{/if}}</p>
+</div>
+<div class="input-div">
+  {{#if info }}
+  <h1 class="info-h1">id: {{info.id}}</h1>
+  <h1 class="info-h1">name: {{info.name}}</h1>
+  <h1 class="info-h1">path: {{info.path}}</h1>
+  <h1 class="info-h1">size: {{info.size}}</h1>
+  <h1 class="info-h1">type: {{info.type}}</h1>
+  <h1 class="info-h1">savedate: {{info.savedate}}</h1>
+  {{else}}
+  <h1>Brak Danych</h1>
+  {{/if}}
+</div>
